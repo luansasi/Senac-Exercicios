@@ -1,0 +1,21 @@
+.menu {
+    background-color: lightcyan;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: aqua;
+    color: blueviolet;
+}
