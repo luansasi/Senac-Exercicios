@@ -128,6 +128,41 @@ td{
 
   td img {
       border-radius: 5%;
-      margin-left: 10%;
-      width: 80%;
+      width: 100%;
+  }
+
+  /* Estilo Reserva */
+
+  form {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      
+  }
+
+  fieldset {
+      margin: 0 30% 0 30%;
+  }
+
+  form div p{
+    display: flex;
+    flex-direction: column;    
+}
+
+  form input {
+      height: 13px;
+  }
+
+  #buttonEnviar {
+      background-color: rgb(27, 175, 27);
+      color: white;
+      border-radius: 50px;
+      padding: 5%;
+  }
+
+  #buttonLimpar {
+      background-color: rgb(63, 63, 63);
+      color: white;
+      border-radius: 50px;
+      padding: 5%;
   }
